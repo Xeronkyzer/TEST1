@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Amity University — India's leading private university offering world-class education, cutting-edge research, and global career opportunities across 200+ programs.">
+  <title>Amity University — Education for Life</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <div class="logo-icon">A</div>
+        <span>Amity University</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#campus">Campus</a></li>
+        <li><a href="#stats">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Apply Now</a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="images/campus-hero.png" alt="Amity University Campus">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tagline">Welcome to</p>
+      <h1 class="hero-title">Amity University</h1>
+      <p class="hero-subtitle">Shaping futures through innovation, research, and a commitment to academic excellence across the globe.</p>
+      <div class="hero-actions">
+        <a href="#programs" class="btn btn-primary">Explore Programs</a>
+        <a href="#about" class="btn btn-outline">Learn More</a>
+      </div>
+      <div class="hero-badges">
+        <div class="badge">
+          <span class="badge-icon">🏆</span>
+          <span>NAAC A+ Accredited</span>
+        </div>
+        <div class="badge">
+          <span class="badge-icon">🌍</span>
+          <span>Global Top 1%</span>
+        </div>
+        <div class="badge">
+          <span class="badge-icon">🎓</span>
+          <span>200+ Programs</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">About Us</span>
+        <h2 class="section-title">A Legacy of <span class="gradient-text">Excellence</span></h2>
+        <p class="section-desc">Founded by Dr. Ashok K. Chauhan, Amity University is one of India's premier institutions, recognized globally for its commitment to education, innovation, and holistic development.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14v7"/></svg>
+          </div>
+          <h3>Academic Excellence</h3>
+          <p>Rigorous curricula designed in collaboration with industry leaders, ensuring graduates are career-ready from day one.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+          </div>
+          <h3>Global Presence</h3>
+          <p>Campuses and partnerships across 7+ countries, offering students an international perspective and unparalleled exposure.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          </div>
+          <h3>Research & Innovation</h3>
+          <p>State-of-the-art labs and research centres fostering breakthroughs in AI, biotechnology, nanotechnology, and more.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+          </div>
+          <h3>Vibrant Community</h3>
+          <p>A diverse student body of 1,50,000+ from 40+ countries, creating a rich cultural and intellectual environment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROGRAMS ========== -->
+  <section class="programs section" id="programs">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Our Programs</span>
+        <h2 class="section-title">Find Your <span class="gradient-text">Path</span></h2>
+        <p class="section-desc">Choose from 200+ programs across diverse disciplines, each designed to empower you with knowledge, skills, and values.</p>
+      </div>
+      <div class="programs-grid">
+        <div class="program-card" style="--accent: #6366f1;">
+          <div class="program-card-icon">⚙️</div>
+          <h3>Engineering</h3>
+          <p>B.Tech, M.Tech in CS, AI/ML, Civil, Mechanical, Electronics & more.</p>
+          <span class="program-tag">40+ Specializations</span>
+        </div>
+        <div class="program-card" style="--accent: #ec4899;">
+          <h3>Management</h3>
+          <div class="program-card-icon">📊</div>
+          <p>BBA, MBA, PGDM with global immersion modules and industry mentoring.</p>
+          <span class="program-tag">Global Exposure</span>
+        </div>
+        <div class="program-card" style="--accent: #14b8a6;">
+          <div class="program-card-icon">⚖️</div>
+          <h3>Law</h3>
+          <p>BA LLB, BBA LLB, LLM — moot courts, legal aid clinics and internship programs.</p>
+          <span class="program-tag">Bar Ready</span>
+        </div>
+        <div class="program-card" style="--accent: #f59e0b;">
+          <div class="program-card-icon">🎨</div>
+          <h3>Design & Arts</h3>
+          <p>B.Des, M.Des in Fashion, Interior, Communication Design & Fine Arts.</p>
+          <span class="program-tag">Creative Excellence</span>
+        </div>
+        <div class="program-card" style="--accent: #ef4444;">
+          <div class="program-card-icon">🧬</div>
+          <h3>Medical & Health</h3>
+          <p>MBBS, BDS, Nursing, Pharmacy, Public Health — leading healthcare education.</p>
+          <span class="program-tag">NAAC Accredited</span>
+        </div>
+        <div class="program-card" style="--accent: #8b5cf6;">
+          <div class="program-card-icon">💻</div>
+          <h3>Science & Tech</h3>
+          <p>B.Sc, M.Sc in Data Science, Biotechnology, Physics, Environmental Science.</p>
+          <span class="program-tag">Research Driven</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CAMPUS LIFE ========== -->
+  <section class="campus section" id="campus">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Campus Life</span>
+        <h2 class="section-title">Experience <span class="gradient-text">Amity</span></h2>
+        <p class="section-desc">World-class infrastructure, vibrant student life, and a nurturing environment — everything you need to thrive.</p>
+      </div>
+      <div class="campus-gallery">
+        <div class="gallery-item gallery-large">
+          <img src="images/campus-hero.png" alt="Amity Campus Aerial View" loading="lazy">
+          <div class="gallery-overlay">
+            <h3>Sprawling Campus</h3>
+            <p>1000+ acres of green, modern campus</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/library.png" alt="Amity University Library" loading="lazy">
+          <div class="gallery-overlay">
+            <h3>World-Class Library</h3>
+            <p>2 million+ books & digital resources</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/lab.png" alt="Research Laboratory" loading="lazy">
+          <div class="gallery-overlay">
+            <h3>Advanced Labs</h3>
+            <p>Cutting-edge research facilities</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS ========== -->
+  <section class="stats section" id="stats">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">By the Numbers</span>
+        <h2 class="section-title">Our <span class="gradient-text">Impact</span></h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number" data-target="150000">0</div>
+          <div class="stat-suffix">+</div>
+          <p class="stat-label">Students Enrolled</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="200">0</div>
+          <div class="stat-suffix">+</div>
+          <p class="stat-label">Programs Offered</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="7">0</div>
+          <div class="stat-suffix"></div>
+          <p class="stat-label">Countries with Campuses</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="95">0</div>
+          <div class="stat-suffix">%</div>
+          <p class="stat-label">Placement Rate</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="500">0</div>
+          <div class="stat-suffix">+</div>
+          <p class="stat-label">Partner Companies</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="5000">0</div>
+          <div class="stat-suffix">+</div>
+          <p class="stat-label">Faculty Members</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Student Voices</span>
+        <h2 class="section-title">What They <span class="gradient-text">Say</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p>Amity transformed my career trajectory. The exposure to global faculty and industry projects prepared me for top roles at multinational companies.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">R</div>
+            <div>
+              <strong>Rahul Mehra</strong>
+              <span>B.Tech CSE, 2023</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p>The research opportunities here are unmatched. I published 3 papers during my master's and landed a PhD scholarship at MIT.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">P</div>
+            <div>
+              <strong>Priya Sharma</strong>
+              <span>M.Sc Biotechnology, 2022</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p>From moot courts to internships at top law firms, Amity's law program gave me every tool to succeed. I'm now practicing at the Supreme Court.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <strong>Amit Verma</strong>
+              <span>BA LLB, 2021</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="cta-section" id="cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Shape Your Future?</h2>
+        <p>Join 1,50,000+ students who chose Amity to transform their dreams into reality. Applications for the 2026-27 session are now open.</p>
+        <div class="cta-actions">
+          <a href="#contact" class="btn btn-primary btn-lg">Start Your Application</a>
+          <a href="#programs" class="btn btn-outline btn-lg">Download Brochure</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Get in Touch</span>
+        <h2 class="section-title">Contact <span class="gradient-text">Us</span></h2>
+        <p class="section-desc">Have questions? Reach out to our admissions team. We're here to help you every step of the way.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="+91 98765 43210">
+          </div>
+          <div class="form-group">
+            <label for="program">Program of Interest</label>
+            <select id="program">
+              <option value="">Select a program</option>
+              <option>Engineering (B.Tech)</option>
+              <option>Management (MBA)</option>
+              <option>Law (BA LLB)</option>
+              <option>Design (B.Des)</option>
+              <option>Medical (MBBS)</option>
+              <option>Science (B.Sc)</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" rows="4" placeholder="Tell us what you're looking for..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-full">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <div class="contact-info-card">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Main Campus</h4>
+              <p>Sector-125, Noida, Uttar Pradesh 201313, India</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p>+91-120-4392000</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p>admissions@amity.edu</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <h4>Office Hours</h4>
+              <p>Mon – Sat: 9:00 AM – 5:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom: 1rem;">
+            <div class="logo-icon">A</div>
+            <span>Amity University</span>
+          </div>
+          <p>Education is not just about earning degrees. It is the key to building a future that is more equitable, sustainable, and filled with opportunity.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#campus">Campus Life</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Placements</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Student Portal</a></li>
+            <li><a href="#">Research Papers</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Alumni Network</a></li>
+            <li><a href="#">Career Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Anti-Ragging</a></li>
+            <li><a href="#">RTI</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Amity University. All Rights Reserved.</p>
+        <p>Made with ❤️ for Education</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile menu toggle
+    const mobileToggle = document.getElementById('mobileToggle');
+    const navLinks = document.getElementById('navLinks');
+    mobileToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      mobileToggle.classList.toggle('active');
+    });
+
+    // Close mobile menu on link click
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        mobileToggle.classList.remove('active');
+      });
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Animated counter
+    const counters = document.querySelectorAll('.stat-number');
+    const observerOptions = { threshold: 0.5 };
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const target = +el.getAttribute('data-target');
+          const duration = 2000;
+          const step = target / (duration / 16);
+          let current = 0;
+          const timer = setInterval(() => {
+            current += step;
+            if (current >= target) {
+              current = target;
+              clearInterval(timer);
+            }
+            el.textContent = Math.floor(current).toLocaleString();
+          }, 16);
+          counterObserver.unobserve(el);
+        }
+      });
+    }, observerOptions);
+    counters.forEach(c => counterObserver.observe(c));
+
+    // Scroll reveal animation
+    const revealElements = document.querySelectorAll('.about-card, .program-card, .stat-card, .testimonial-card, .gallery-item, .contact-info-card');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    revealElements.forEach(el => {
+      el.classList.add('reveal');
+      revealObserver.observe(el);
+    });
+
+    // Form submission
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const btn = this.querySelector('button[type="submit"]');
+      btn.textContent = '✓ Message Sent!';
+      btn.style.background = 'linear-gradient(135deg, #10b981, #059669)';
+      setTimeout(() => {
+        btn.textContent = 'Send Message';
+        btn.style.background = '';
+        this.reset();
+      }, 3000);
+    });
+  </script>
+
+</body>
+</html>
